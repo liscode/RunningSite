@@ -1,0 +1,41 @@
+﻿body {
+background-color:aliceblue;
+}
+
+/*photo-ABOUT PAGE*/
+.photosAboutUs {
+     float:left;
+     border-radius:300px;
+     position: absolute;
+     margin:10px;
+}
+
+/*ABOUT PAGE*/
+.textAboutUs {
+    text-align:center;
+    font-size:18px;
+    color:#081540;
+    width:700px;
+    margin:50px;
+   background-color:white;
+   float:left;
+   margin-right:600px; 
+}
+
+.box {
+    text-align:center;
+    width:150px;
+    position:absolute;
+    margin-right: 200px;
+}
+
+.bold {
+font-weight:bold;
+}
+
+.AboutUs {
+    float:right;
+}
+
+/*CONTACT PAGE*/
+
