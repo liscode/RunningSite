@@ -1,41 +1,130 @@
-﻿body {
-background-color:aliceblue;
+﻿/*ALL WEBSITE*/
+body {
+    background-color:#fcf3fc;
+    margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
-/*photo-ABOUT PAGE*/
-.photosAboutUs {
-     float:left;
-     border-radius:300px;
-     position: absolute;
-     margin:10px;
+.header{
+	width:100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	}
+
+.main{
+	min-height:600px;
+	}
+
+.footer{
+	height:70px;
+	background-color:#333;
+    color:#9d9d9d;
+	}
+
+fontawesomeIcons
+.fa fa-envelope, .fa fa-facebook, .fa fa-twitter{
+    color:#9d9d9d;
+    float:left;
+    margin-left:10px;
 }
 
-/*ABOUT PAGE*/
+.fondWhitText> a ,.fondWhitText>i{
+    color:#9d9d9d;
+    float:left;
+}
+.fondWhitText> a:hover ,.fondWhitText>i:hover{
+        color:white;
+    }
+
+/*Home Page-link's top*/
+.navbar-nav > li > a {
+    color:#f7b8f4;
+    width:100px;
+    font-size:20px;
+}
+
+/*Home Page-carousel photos */
+.carousel-inner>div > img {    
+    margin:auto;
+    margin-top:20px;
+    border:20px;
+    max-height: 600px;
+    min-height:600px;
+}
+
+/*Home Page-carousel text*/
+.carousel-caption {
+   color:white;
+   font-size:26px;
+}
+
+/*--------ABOUT PAGE--------*/
+
+/*ABOUT PAGE-photo*/
+.photosAboutUs>img {
+    margin-top: 100px;
+    margin-left: 900px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+/*ABOUT PAGE-text*/
 .textAboutUs {
-    text-align:center;
+   text-align:center;
     font-size:18px;
     color:#081540;
-    width:700px;
-    margin:50px;
+    width:800px;
+    margin-top:100px;
    background-color:white;
-   float:left;
-   margin-right:600px; 
+   margin-left:70px;
 }
 
+/*ABOUT PAGE-text on photos*/
 .box {
     text-align:center;
     width:150px;
     position:absolute;
-    margin-right: 200px;
+    margin-left: 950px;
+    margin-top: 80px;
 }
 
+/*ABOUT PAGE-text*/
 .bold {
 font-weight:bold;
 }
 
+/*ABOUT PAGE-text*/
 .AboutUs {
-    float:right;
+    float:left;
 }
 
+/*--------CONTACT PAGE--------*/
 /*CONTACT PAGE*/
+.contact {
+     text-align:center;
+     font-size:40px;
+     color:white;
+     background-image: url(../Photos/contact2.jpg);
+     background-position:center;
+	 background-size:cover;
+	 background-repeat:no-repeat;
+     margin:0;
+	 padding:0;
+}
 
+.form-control{
+    width: 400px;
+    margin-left: 600px;
+    margin-top:10px;
+}
+
+.btn btn-default {
+     height: 50px;
+    width: 120px;
+    font-size: 26px;
+    color: black; 
+    margin-left: 250px;
+    margin-top:20px;
+}

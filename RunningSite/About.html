@@ -3,41 +3,92 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>About/עלינו</title>
+    <title>About</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="styleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body dir="rtl">
-    <div class="AboutUs">
-       <div class="photosAboutUs">
-        <img src="../photos/about.jpg" width="550" height="400" alt="RUN4Girls"/>
-           </div>
-         <div class="box">
-             <h2>היום הכי טוב להתחיל להתאמן בו הוא 
-           <span class="bold">היום</span></h2>
-        </div>
-        <div class="textAboutUs">
-            <p>
-                <b>Run4Girls - הכל התחיל במפגש בין ספורטאית למתאמנת<br />
-                    שילוב בין חברות, אהבה לפעילות גופנית עם רצון להתחיל לזוז, להתמיד, להשתפר.<br />
-                    RUN4Girls הוא מועדון אימוני ריצה וכושר לנשים בכל רמות הכושר, כולל אימוני חיזוק .</b>
-            </p>
-            <p>
+<body>
+    <!-- top nav-bar -->
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="HomePage.html">Run4Girls</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="HomePage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="AboutUs">
+            <div class="photosAboutUs">
+                <img src="../photos/about.jpg" width="400" height="400" alt="RUN4Girls" />
+            </div>
+            <div class="box">
+                <h2>The best day to start exercising is 
+           <span class="bold">TODAY</span></h2>
+            </div>
+            <div class="textAboutUs">
+                <p>
+                    <!-- הכל התחיל במפגש בין ספורטאית למתאמנת 
+                הוא מועדון אימוני ריצה וכושר לנשים ב כל רמות הכושר, כולל אימוני חיזוקRUN4Girls   
                 אנחנו הופכות את העולם שבחוץ לרחבת אימונים אחת גדולה ויוצרות שירותים, מוצרים וחוויות שמגשימות מטרות,
                ועוד יותר חשוב- גורמות למתאמנות להינות, לחוות, להרגיש, להגשים ולחייך לאורך כל הדרך
-            </p>
-            <p>
-                אנחנו יודעות שהחלק הכי קשה באימון הוא להתחיל אותו, אבל אף אחת לא מתחרטת על אימון שהיא יצאה אליו,
+            אנחנו יודעות שהחלק הכי קשה באימון הוא להתחיל אותו, אבל אף אחת לא מתחרטת על אימון שהיא יצאה אליו,
             אלא רק על זה שהיא פספסה. אז בואי ונצחי את עצמך. הצטרפי אלינו, תיהני, תזיעי, תחייכי ותתאהבי…באימונים ובחיים.
-            </p>
-            <p>
-                בנוסף לזה תוכלי למצוא ב-RUN4Girls
-            אימון אישי עד הבית
-            </p>
-            <p>
-                <a href="Contact.html">לפרטים לחצי</a><br />
-                <b>let’s move it-לחלום, להאמין, להשיג!!</b>
-            </p>
+                    בנוסף לזה, תוכלי למצוא ב-RUN4Girls
+                    אימון אישי עד הבית -->
+
+                   <p><b>Run4Girls -All began at a meeting between trainee with practicing<br />
+                         RUN4Girls is a running club and fitness, training for women at all levels of fitness, including Strength .</b>
+                        Integration between companies, love and exercise with a desire to movine, persevere and improve.</p> 
+                <p>
+                    We make the world outside to one a big dance training and create services , products and experiences self-fulfilling goals ,
+                 Even more important- cause the trainee to enjoy , experience , feel , realize and smile all the way.
+                </p>
+                <p>
+                    We know that the most of the hardest training is to start it , but no one regrets it came to training ,
+            only that she missed.<br />
+                    So let's eternal yourself . Join us , have fun, sweat , smile and fall in love with<br />
+                    ... in training and in life 
+                </p>
+                <p>
+                    In addition you can find at-RUN4Girls
+            personal training until home!
+                </p>
+                <p>
+                    <a href="Contact.html">Click for more information</a><br />
+                    <b>Run4Girls - Dream, Believe, Achieve!!</b>
+                </p>
+            </div>
         </div>
+    </section>
+    <!-- footer nav-bar -->
+    <footer>
+        <div class="footer">
+            <p>Copyright © 2012-2016 Run4Girls</p>
+            <div class="fondWhitText">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="Run4Girls@gmail.com">Run4Girls@gmail.com</a>
+            </div>
+            <div class="fondWhitText">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="www.facebook.com">Facebook</a>
+            </div>
+            <div class="fondWhitText">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <a href="www.Twitter.com">Twitter</a>
+            </div>
         </div>
+    </footer>
 </body>
 </html>

@@ -3,20 +3,63 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-     <title>Contact/צור-קשר</title>
+    <title>Contact</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="styleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <img src="../photos/contact2.jpg" width="100%" height="100%" alt="contact"/>
     <div class="contact">
-  <p><b>אתם מוזמנים ליצור איתנו קשר</b></p>  
-<p>השאירו פרטים או התקשרו עוד היום 03-5633356</p> 
+        <!-- top nav-bar -->
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="HomePage.html">Run4Girls</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="HomePage.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="main">
+            <p><b>You are invited to contact us </b></p>
+            <p>Leave details or call us today- 03-5633356</p>
 
-    <input type="text" name="name" value="" size="40"  aria-required="true" aria-invalid="false" placeholder="שם מלא"/><br />
-        <input type="text" name="name" value="" size="40"  aria-required="true" aria-invalid="false" placeholder="טלפון"/><br />
-     <input type="text" name="name" value="" size="40"  aria-required="true" aria-invalid="false" placeholder="כתובת מייל"/><br /><br />
-        <input type="text" name="name" value="" size="40"  aria-required="true" aria-invalid="false" placeholder="הודעת טקסט"/><br /><br />
-    <input type="submit" value="שלח"/>
+            <div class="inputText">
+                <input type="text" class="form-control" placeholder="Full Name" />
+                <input type="text" class="form-control" placeholder="Phone Number" />
+                <input type="text" class="form-control" placeholder="E-mail" />
+            </div>
+            <div class="submitDetails">
+                <button type="button" class="btn btn-default">Contact Us</button>
+            </div>
+        </section>
+    </div>
+    <!-- footer nav-bar -->
+    <footer>
+        <div class="footer">
+            <p>Copyright © 2012-2016 Run4Girls</p>
+            <div class="fondWhitText">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="Run4Girls@gmail.com">Run4Girls@gmail.com</a>
+            </div>
+            <div class="fondWhitText">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="www.facebook.com">Facebook</a>
+            </div>
+            <div class="fondWhitText">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <a href="www.Twitter.com">Twitter</a>
+            </div>
         </div>
+    </footer>
 </body>
 </html>
